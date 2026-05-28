@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hasbi | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <!-- FONTAWESOME CDN FOR OFFICIAL SOCIAL LOGOS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
+    <!-- INTERACTIVE CYBER DOODLE ENGINE CANVAS -->
     <canvas id="chaosCanvas"></canvas>
 
     <!-- NAVBAR -->
@@ -23,18 +25,19 @@
         </ul>
     </nav>
 
-    <!-- HERO SECTION (FIXED: KATA HI I'M DIHAPUS) -->
+    <!-- HERO SECTION -->
     <header id="home" class="hero">
         <div class="hero-container">
             <div class="hero-text">
                 <h1><span class="highlight">Hasbi As Sidiqi Gimnastiar</span></h1>
                 <p class="campus-info">
-                    Mahasiswa Aktif <br>
-                    Jurusan Pendidikan Bahasa Mandarin <br>
+                    Undergraduate Student <br>
+                    Department of Mandarin Language Education <br>
                     <strong>Universitas Negeri Semarang</strong>
                 </p>
             </div>
             
+            <!-- FIXED 3D CAROUSEL BINGKAI FOTO PROPORSIONAL -->
             <div class="hero-image">
                 <div class="carousel-container">
                     <div class="carousel-view">
@@ -55,17 +58,18 @@
         </div>
     </header>
 
-    <!-- ABOUT SECTION (FIXED: TAMBAHAN SKILL WEB3 LU) -->
+    <!-- ABOUT SECTION (PROFILE) -->
     <section id="about" class="about">
         <div class="section-header">
             <span class="section-tag">// PROFILE</span>
         </div>
         <div class="profile-content">
             <p class="about-text">
-                Saya adalah mahasiswa sarjana (S1) Pendidikan Bahasa Mandarin semester 4 di Universitas Negeri Semarang. Memiliki ketertarikan mendalam dan semangat tinggi dalam bidang komunikasi, linguistik, serta ekosistem Web3.
+                I am a 4th-semester undergraduate student majoring in Mandarin Language Education at Universitas Negeri Semarang. I have a deep passion and strong enthusiasm for communication, linguistics, and the evolving Web3 ecosystem.
             </p>
             
             <div class="cv-skills-grid">
+                <!-- WEB3 SECTION -->
                 <div class="cv-skill-card">
                     <h3><i class="fa-solid fa-cubes-stacked"></i> Web3</h3>
                     <ul>
@@ -76,6 +80,7 @@
                         <li>Public API Integration for Market Screening & Risk Management Automation</li>
                     </ul>
                 </div>
+                <!-- LANGUAGES SECTION -->
                 <div class="cv-skill-card">
                     <h3><i class="fa-solid fa-language"></i> Languages</h3>
                     <ul>
@@ -88,17 +93,17 @@
         </div>
     </section>
 
-    <!-- EXPERIENCE SECTION -->
+    <!-- EXPERIENCE SECTION (TRACK RECORD) -->
     <section id="experience" class="experience">
         <div class="section-header">
             <span class="section-tag">// TRACK RECORD</span>
         </div>
         <div class="timeline">
             <div class="timeline-item">
-                <div class="time-badge">Desember 2025 - Sekarang</div>
+                <div class="time-badge">December 2025 - Present</div>
                 <h3>Lead Developer — ZeptoClaw Pro Bot</h3>
                 <p class="company">Independent Quant Project</p>
-                <p class="desc">Mengembangkan core logic bot trading kripto kuantitatif menggunakan Python dan Pine Script. Mengintegrasikan OKX Public API untuk screening market secara *real-time* (3 pasang statis: BTC, ETH, SOL dan 2 pasang dinamis berbasis volume harian). Projek saat ini sedang berada dalam tahap pengembangan intensif, uji coba berkala, serta perbaikan sistem AI Logic secara menyeluruh.</p>
+                <p class="desc">Developing the core logic for an automated quantitative crypto trading bot using Python and Pine Script. Integrating the OKX Public API for real-time market screening (covering 3 static pairs: BTC, ETH, SOL, and 2 dynamic pairs based on daily volume). The project is currently under intensive development, regular testing, and continuous AI logic optimization.</p>
             </div>
         </div>
     </section>
@@ -110,30 +115,35 @@
         </div>
         
         <div class="contact-grid">
+            <!-- EMAIL -->
             <a href="mailto:hassidiqi1206@gmail.com" class="contact-card">
                 <div class="icon-box"><i class="fa-regular fa-envelope"></i></div>
                 <h3>Email</h3>
                 <p>hassidiqi1206@gmail.com</p>
             </a>
             
+            <!-- WHATSAPP -->
             <a href="https://wa.me/6285219419007" target="_blank" class="contact-card">
                 <div class="icon-box"><i class="fa-brands fa-whatsapp"></i></div>
                 <h3>WhatsApp</h3>
                 <p>+62 852-1941-9007</p>
             </a>
             
+            <!-- GITHUB -->
             <a href="https://github.com/hassidiqi" target="_blank" class="contact-card">
                 <div class="icon-box"><i class="fa-brands fa-github"></i></div>
                 <h3>GitHub</h3>
                 <p>github.com/hassidiqi</p>
             </a>
             
+            <!-- LINKEDIN -->
             <a href="https://www.linkedin.com/in/hasbi-as-sidiqi-gimnastiar-9237b4314" target="_blank" class="contact-card">
                 <div class="icon-box"><i class="fa-brands fa-linkedin-in"></i></div>
                 <h3>LinkedIn</h3>
                 <p>linkedin.com/in/hasbi-as-sidiqi</p>
             </a>
 
+            <!-- INSTAGRAM -->
             <a href="https://instagram.com/HSBIASSIDIQI" target="_blank" class="contact-card">
                 <div class="icon-box"><i class="fa-brands fa-instagram"></i></div>
                 <h3>Instagram</h3>
@@ -142,10 +152,12 @@
         </div>
     </section>
 
+    <!-- FOOTER -->
     <footer>
         <p>&copy; 2026 Hasbi. Built with precision code for Web3 Ecosystem.</p>
     </footer>
 
+    <!-- INTERACTIVE DYNAMIC DOODLE CANVAS & CAROUSEL SCRIPT -->
     <script>
         // 1. 3D CAROUSEL SLIDER ENGINE
         let currentIndex = 1;
